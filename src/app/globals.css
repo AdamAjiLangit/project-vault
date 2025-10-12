@@ -1,42 +1,150 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+[stroke='url(#gradientFill)'] {
+  stroke: #FCFAF8 !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: content-box;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+  background-color: #edf1e8;
+  color: #0f0f0f;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: -0.1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  letter-spacing: -0.025rem;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.0125rem;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+header,
+footer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  align-content: center;
+  padding: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.work {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  overflow: hidden;
+}
+
+.row {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.work-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.work-item-img {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.work-item-copy p {
+  color: #999;
+}
+
+.work-item-link {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.work-item-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 1000px) {
+  .work,
+  .row {
+    gap: 2rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
   }
 }
