@@ -12,7 +12,7 @@ export default function Home() {
         <Work />
 
         <footer>
-          <p>Developed by Codegrid</p>
+          <p>Developed by Adam</p>
           <p>All rights reserved &copy; 2025</p>
         </footer>
       </ReactLenis>
