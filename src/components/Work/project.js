@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: "3D Menu",
+    description: "A 3D menu with interactive hover effects.",
+    img: "/assets/img88.png",
+    route: "https://3d-menu-eight.vercel.app/",
+  },
+  {
     name: "Morphing Feature",
     description: "A unique morphing effect that transitions between different UI elements.",
     img: "/assets/img87.png",
