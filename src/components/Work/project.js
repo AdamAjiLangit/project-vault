@@ -1,5 +1,17 @@
 export const projects = [
   {
+    name: "Negative Films",
+    description: "A modern creative Films website for Negative Films.",
+    img: "/assets/img96.jpg",
+    route: "https://negative-films.vercel.app/",
+  },
+  {
+    name: "Terrene Studio",
+    description: "A creative studio website for Terrene Studio.",
+    img: "/assets/img95.jpg",
+    route: "https://terrene-adam.vercel.app/",
+  },
+  {
     name: "Silent Dawn",
     description: "A modern landing page for Silent Dawn.",
     img: "/assets/img94.jpg",
