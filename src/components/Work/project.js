@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: "Lando Norris Landing Page",
+    description: "A landing page inspired by Formula 1 driver Lando Norris.",
+    img: "/assets/img89.png",
+    route: "https://landpnorris-landing-page.vercel.app/",
+  },
+  {
     name: "3D Menu",
     description: "A 3D menu with interactive hover effects.",
     img: "/assets/img88.png",
