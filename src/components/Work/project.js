@@ -1,5 +1,35 @@
 export const projects = [
   {
+    name: "Silent Dawn",
+    description: "A modern landing page for Silent Dawn.",
+    img: "/assets/img94.jpg",
+    route: "https://silent-dawn.vercel.app/",
+  },
+  {
+    name: "Jiji The Cat",
+    description: "A personal project featuring Jiji the Cat.",
+    img: "/assets/img93.jpg",
+    route: "https://jiji-the-cat.netlify.app/",
+  },
+  {
+    name: "Howl Moving Castle's",
+    description: "A tribute website inspired by the movie Howl's Moving Castle.",
+    img: "/assets/img92.jpg",
+    route: "https://howl-moving-castles.vercel.app/",
+  },
+  {
+    name: "A-Studio",
+    description: "A creative studio website showcasing various projects.",
+    img: "/assets/img91.jpg",
+    route: "https://a-studios.netlify.app/",
+  },
+  {
+    name: "Format Archive",
+    description: "A modern e-commerce website for Format Archive.",
+    img: "/assets/img90.jpg",
+    route: "https://format-archive.netlify.app/",
+  },
+  {
     name: "Lando Norris Landing Page",
     description: "A landing page inspired by Formula 1 driver Lando Norris.",
     img: "/assets/img89.jpg",
