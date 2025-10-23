@@ -1,5 +1,17 @@
 export const projects = [
   {
+    name: "Lando Norris Landing Page",
+    description: "A landing page inspired by Formula 1 driver Lando Norris.",
+    img: "/assets/img98.jpg",
+    route: "https://landpnorris-landing-page.vercel.app/",
+  },
+  {
+    name: "David Alaba Landing Page",
+    description: "A modern landing page for David Alaba.",
+    img: "/assets/img97.jpg",
+    route: "https://davidalaba-landing-page.vercel.app/",
+  },
+  {
     name: "Negative Films",
     description: "A modern creative Films website for Negative Films.",
     img: "/assets/img96.jpg",
@@ -25,7 +37,8 @@ export const projects = [
   },
   {
     name: "Howl Moving Castle's",
-    description: "A tribute website inspired by the movie Howl's Moving Castle.",
+    description:
+      "A tribute website inspired by the movie Howl's Moving Castle.",
     img: "/assets/img92.jpg",
     route: "https://howl-moving-castles.vercel.app/",
   },
@@ -55,7 +68,8 @@ export const projects = [
   },
   {
     name: "Morphing Feature",
-    description: "A unique morphing effect that transitions between different UI elements.",
+    description:
+      "A unique morphing effect that transitions between different UI elements.",
     img: "/assets/img87.jpg",
     route: "https://morphing-feature.vercel.app/",
   },
@@ -79,7 +93,8 @@ export const projects = [
   },
   {
     name: "Scroll Merge Text",
-    description: "A creative scroll animation that merges text elements dynamically.",
+    description:
+      "A creative scroll animation that merges text elements dynamically.",
     img: "/assets/img83.jpg",
     route: "https://scroll-merge-text.vercel.app/",
   },
@@ -97,19 +112,22 @@ export const projects = [
   },
   {
     name: "Animated Card Section",
-    description: "Animated card layout section with hover and motion transitions.",
+    description:
+      "Animated card layout section with hover and motion transitions.",
     img: "/assets/img2.jpg",
     route: "https://animated-card-section.vercel.app/",
   },
   {
     name: "Phive Text Scroll",
-    description: "Scroll-based typography animation inspired by modern motion design.",
+    description:
+      "Scroll-based typography animation inspired by modern motion design.",
     img: "/assets/img3.jpg",
     route: "https://phive-text-scroll-anim.vercel.app/",
   },
   {
     name: "Telescope img scroll",
-    description: "Creative image reveal scroll inspired by telescope zoom effects.",
+    description:
+      "Creative image reveal scroll inspired by telescope zoom effects.",
     img: "/assets/img4.jpg",
     route: "https://telescope-img-scroll.vercel.app/",
   },
@@ -145,25 +163,29 @@ export const projects = [
   },
   {
     name: "img shuffle preload",
-    description: "Image preloading and shuffle animation for creative landings.",
+    description:
+      "Image preloading and shuffle animation for creative landings.",
     img: "/assets/img10.jpg",
     route: "https://img-shuffle-landing-page.vercel.app/",
   },
   {
     name: "draggable img",
-    description: "A draggable image gallery inspired by physical motion effects.",
+    description:
+      "A draggable image gallery inspired by physical motion effects.",
     img: "/assets/img11.jpg",
     route: "https://phantom-inspired-draggable-img.vercel.app/",
   },
   {
     name: "p10 preload",
-    description: "Preloading animation inspired by P10 interactive landing design.",
+    description:
+      "Preloading animation inspired by P10 interactive landing design.",
     img: "/assets/img12.jpg",
     route: "https://p10-inspired-landing-page.vercel.app/",
   },
   {
     name: "inkwell gallery",
-    description: "Minimal inkwell-themed gallery with elegant hover transitions.",
+    description:
+      "Minimal inkwell-themed gallery with elegant hover transitions.",
     img: "/assets/img13.jpg",
     route: "https://inkwell-inspired-gallery.vercel.app/",
   },
@@ -181,25 +203,29 @@ export const projects = [
   },
   {
     name: "Scroll img transition",
-    description: "Scroll-triggered image transition using advanced motion layers.",
+    description:
+      "Scroll-triggered image transition using advanced motion layers.",
     img: "/assets/img16.jpg",
     route: "https://scroll-transition-img.vercel.app/",
   },
   {
     name: "preload reveal",
-    description: "Elegant preload animation that reveals landing content fluidly.",
+    description:
+      "Elegant preload animation that reveals landing content fluidly.",
     img: "/assets/img17.jpg",
     route: "https://landing-page-reveal-wine.vercel.app/",
   },
   {
     name: "Scroll anim",
-    description: "Dynamic scroll animation applied to multiple layered elements.",
+    description:
+      "Dynamic scroll animation applied to multiple layered elements.",
     img: "/assets/img18.jpg",
     route: "https://scroll-anim-ten.vercel.app/",
   },
   {
     name: "Responsive img minimap",
-    description: "Interactive responsive image gallery with minimap navigation.",
+    description:
+      "Interactive responsive image gallery with minimap navigation.",
     img: "/assets/img19.jpg",
     route: "https://responsive-img-minimap.vercel.app/",
   },
@@ -223,7 +249,8 @@ export const projects = [
   },
   {
     name: "Horizontal Scroll",
-    description: "Clean horizontal scroll experience for immersive web layouts.",
+    description:
+      "Clean horizontal scroll experience for immersive web layouts.",
     img: "/assets/img23.jpg",
     route: "https://horizontal-scroll-ten.vercel.app/",
   },
@@ -235,7 +262,8 @@ export const projects = [
   },
   {
     name: "Triangle Transition",
-    description: "Scroll-based transition with geometric triangle reveal effects.",
+    description:
+      "Scroll-based transition with geometric triangle reveal effects.",
     img: "/assets/img25.jpg",
     route: "https://scroll-triangle-transition.vercel.app/",
   },
@@ -295,13 +323,15 @@ export const projects = [
   },
   {
     name: "3d drag around",
-    description: "3D drag interaction allowing free object rotation and exploration.",
+    description:
+      "3D drag interaction allowing free object rotation and exploration.",
     img: "/assets/img35.jpg",
     route: "https://3d-scroll-around.vercel.app/",
   },
   {
     name: "3d room",
-    description: "Immersive 3D room environment with WebGL lighting and camera motion.",
+    description:
+      "Immersive 3D room environment with WebGL lighting and camera motion.",
     img: "/assets/img36.jpg",
     route: "https://3d-room-six.vercel.app/cg-brutalist-corridor-lp/index.html",
   },
@@ -337,13 +367,15 @@ export const projects = [
   },
   {
     name: "Scroll anim per img",
-    description: "Scroll-triggered animations applied individually to each image.",
+    description:
+      "Scroll-triggered animations applied individually to each image.",
     img: "/assets/img42.jpg",
     route: "https://scroll-anim-per-img.vercel.app/",
   },
   {
     name: "3d tunnel",
-    description: "A mesmerizing 3D tunnel animation simulating immersive motion.",
+    description:
+      "A mesmerizing 3D tunnel animation simulating immersive motion.",
     img: "/assets/img43.jpg",
     route: "https://3d-tunnel-img.vercel.app/",
   },
@@ -355,7 +387,8 @@ export const projects = [
   },
   {
     name: "3d cards",
-    description: "A gallery of 3D cards that respond to hover and scroll motions.",
+    description:
+      "A gallery of 3D cards that respond to hover and scroll motions.",
     img: "/assets/img45.jpg",
     route: "https://3d-card-lake.vercel.app/",
   },
@@ -397,7 +430,8 @@ export const projects = [
   },
   {
     name: "interactive calendar",
-    description: "Interactive calendar card layout with smooth flipping effects.",
+    description:
+      "Interactive calendar card layout with smooth flipping effects.",
     img: "/assets/img52.jpg",
     route: "https://interactive-calendar-cards.vercel.app/",
   },
@@ -439,7 +473,8 @@ export const projects = [
   },
   {
     name: "variation fonts scroll",
-    description: "Scroll-triggered variable font animation with dynamic weight.",
+    description:
+      "Scroll-triggered variable font animation with dynamic weight.",
     img: "/assets/img59.jpg",
     route: "https://scrolltrigger-font.vercel.app/",
   },
@@ -469,7 +504,8 @@ export const projects = [
   },
   {
     name: "modular carousel",
-    description: "Carousel built using modular component design and motion logic.",
+    description:
+      "Carousel built using modular component design and motion logic.",
     img: "/assets/img64.jpg",
     route: "https://modular-carousel.vercel.app/",
   },
@@ -499,7 +535,8 @@ export const projects = [
   },
   {
     name: "blocky scroll fade",
-    description: "Blocky fade-in/out scroll animation inspired by brutalist design.",
+    description:
+      "Blocky fade-in/out scroll animation inspired by brutalist design.",
     img: "/assets/img69.jpg",
     route: "https://blocky-scroll-fade.vercel.app/",
   },
@@ -535,7 +572,8 @@ export const projects = [
   },
   {
     name: "text shuffle",
-    description: "Text animation that shuffles characters with interactive effects.",
+    description:
+      "Text animation that shuffles characters with interactive effects.",
     img: "/assets/img75.jpg",
     route: "https://text-shuffle.vercel.app/",
   },
@@ -565,7 +603,8 @@ export const projects = [
   },
   {
     name: "sticky cards",
-    description: "Scroll-triggered sticky cards with layered animation effects.",
+    description:
+      "Scroll-triggered sticky cards with layered animation effects.",
     img: "/assets/img80.jpg",
     route: "https://sticky-cards-six.vercel.app/",
   },
