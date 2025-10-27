@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Jiro Horikoshi",
     description: "modern portofolio with 3d implementation and other animations",
-    img: "/assets/img99.jpg",
+    img: "/assets/img100.jpg",
     route: "https://jiro-horikoshi.vercel.app/",
   },
   {
