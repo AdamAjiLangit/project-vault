@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: "Image to card onscroll",
+    description: "A project that converts images into cards on scroll.",
+    img: "/assets/img99.jpg",
+    route: "https://image-to-card.vercel.app/",
+  },
+  {
     name: "Lando Norris Landing Page",
     description: "A landing page inspired by Formula 1 driver Lando Norris.",
     img: "/assets/img98.jpg",
