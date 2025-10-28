@@ -1,11 +1,16 @@
 export const projects = [
   {
+    name: "Scroll Motion Slider",
+    description: "A project that creates a smooth scrolling motion slider.",
+    img: "/assets/img101.jpg",
+    route: "https://scroll-motion-slider.vercel.app/",
+  },
+  {
     name: "Jiro Horikoshi",
     description: "modern portofolio with 3d implementation and other animations",
     img: "/assets/img100.jpg",
     route: "https://jiro-horikoshi.vercel.app/",
-  },
-  {
+  },  {
     name: "Image to card onscroll",
     description: "A project that converts images into cards on scroll.",
     img: "/assets/img99.jpg",
