@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: "Polite Chaos",
+    description: "Creative studio with smooth gsap animations",
+    img: "/assets/img102.jpg",
+    route: "hhttps://polite-chaos-mrfish.vercel.app/",
+  },
+  {
     name: "Scroll Motion Slider",
     description: "A project that creates a smooth scrolling motion slider.",
     img: "/assets/img101.jpg",
