@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: "lacrapule-carousel",
+    description: "Animated Carousel",
+    img: "/assets/img103.jpg",
+    route: "https://lacrapule-carousel.vercel.app/",
+  },
+  {
     name: "Polite Chaos",
     description: "Creative studio with smooth gsap animations",
     img: "/assets/img102.jpg",
@@ -13,10 +19,12 @@ export const projects = [
   },
   {
     name: "Jiro Horikoshi",
-    description: "modern portofolio with 3d implementation and other animations",
+    description:
+      "modern portofolio with 3d implementation and other animations",
     img: "/assets/img100.jpg",
     route: "https://jiro-horikoshi.vercel.app/",
-  },  {
+  },
+  {
     name: "Image to card onscroll",
     description: "A project that converts images into cards on scroll.",
     img: "/assets/img99.jpg",
