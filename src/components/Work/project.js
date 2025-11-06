@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "IsoChrome",
     description: "IsoChrome Studio",
-    img: "/assets/105.jpg",
+    img: "/assets/img105.jpg",
     route: "https://isochrome-nine.vercel.app/",
   },
   {
