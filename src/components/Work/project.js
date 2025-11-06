@@ -1,15 +1,21 @@
 export const projects = [
   {
+    name: "IsoChrome",
+    description: "IsoChrome Studio",
+    img: "/assets/105.jpg",
+    route: "https://isochrome-nine.vercel.app/",
+  },
+  {
+    name: "Lacrapule Studio",
+    description: "Lacrapule Studio Hover Effect",
+    img: "/assets/img104.jpg",
+    route: "https://lacrapulestudio-hover-effect.vercel.app/",
+  },
+  {
     name: "lacrapule-carousel",
     description: "Animated Carousel",
     img: "/assets/img103.jpg",
     route: "https://lacrapule-carousel.vercel.app/",
-  },
-  {
-    name: "Polite Chaos",
-    description: "Creative studio with smooth gsap animations",
-    img: "/assets/img102.jpg",
-    route: "https://polite-chaos-mrfish.vercel.app/",
   },
   {
     name: "Scroll Motion Slider",
