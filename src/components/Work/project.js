@@ -1,5 +1,53 @@
 export const projects = [
   {
+    name: "Nvg8 Scroll",
+    description: "Nvg8 Scroll Effect",
+    img: "/assets/img113.jpg",
+    route: "https://nvg8-scroll.vercel.app/",
+  },
+  {
+    name: "Brandappart Sticky Cards",
+    description: "Brandappart Sticky Cards",
+    img: "/assets/img112.jpg",
+    route: "https://brandappart-sticky-cards.vercel.app/",
+  },
+  {
+    name: "SVG Image Hover Effect",
+    description: "SVG Image Hover Effect",
+    img: "/assets/img111.jpg",
+    route: "https://brandappart-sticky-cards-5xpw.vercel.app/",
+  },
+  {
+    name: "Follow Art Scroll",
+    description: "Follow Art Scroll",
+    img: "/assets/img110.jpg",
+    route: "https://followart-scroll.vercel.app/",
+  },
+  {
+    name: "Zoom Scroll",
+    description: "Zoom Scroll Effect",
+    img: "/assets/img109.jpg",
+    route: "https://jeskojets-scroll.vercel.app/",
+  },
+  {
+    name: "Burn Scroll",
+    description: "Burn Scroll Effect",
+    img: "/assets/img108.jpg",
+    route: "https://ironhill-scroll.vercel.app/",
+  },
+  {
+    name: "Guiding Light Hover",
+    description: "Guiding Light Hover Effect",
+    img: "/assets/img107.jpg",
+    route: "https://ironhill-scroll-9g1c.vercel.app/",
+  },
+  {
+    name: "Lottie Scroll Animation",
+    description: "Lottie Scroll Animation",
+    img: "/assets/img106.jpg",
+    route: "https://lottie-scroll-animation-gold.vercel.app/",
+  },
+  {
     name: "IsoChrome",
     description: "IsoChrome Studio",
     img: "/assets/img105.jpg",
